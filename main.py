@@ -5,7 +5,7 @@ from email.mime.text import MIMEText # it creates only the plains text
  
 from_addr = 'tarapranay134@gmaill.com'
 
-data = pd.read_csv(r"C:\Users\lenovo\OneDrive\Desktop\PYTHON_CWH\Mini_projects\kpkp.csv" , encoding='utf-8')
+data = pd.read_csv(r"kpkp.csv" , encoding='utf-8')
 to_addr = data['EMAIL'].tolist()
 # name = data['name'].tolist()
 
